@@ -1,4 +1,4 @@
-name: 02 - Workflow Events
+name: 02 - Workflow Events_2_2
 
 on:
   - workflow_dispatch
