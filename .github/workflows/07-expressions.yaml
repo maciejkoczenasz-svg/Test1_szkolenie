@@ -1,0 +1,11 @@
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set Variable Using an Expression
+        run: |
+          # Define a dynamic variable using an expression
+          MY_VAR="Hello, ${{ github.actor }}!"
+
+          # Use the variable in an echo statement
+          echo $MY_VAR
